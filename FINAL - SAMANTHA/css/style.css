@@ -1,0 +1,377 @@
+/* Tipografias */
+
+/* Titulos */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+/* font-family: 'Roboto', sans-serif; */
+
+/* Texto */
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@200&display=swap");
+/*  font-family: 'League Spartan', sans-serif; */
+
+/* Last Editions */
+@import url("https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Lobster|Montserrat&display=swap");
+
+iframe {
+    width: 100% !important;
+    height: 450px;
+}
+
+h6 {
+    font-size: 80px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    padding-bottom: 10px;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-attachment: fixed;
+    background-image: url("https://st.depositphotos.com/1001564/2470/i/600/depositphotos_24704059-stock-photo-background.jpg");
+}
+
+p {
+    font-size: 23px;
+    font-family: "League Spartan", sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
+button a {
+    color: #0fdbf2;
+}
+
+button a:hover {
+    color: white;
+    text-decoration-color: rgb(219, 219, 25);
+}
+
+.btn-centrado {
+    text-align: center;
+}
+
+/* Intro part */
+.intro-page {
+    text-align: center;
+    max-width: 1100px;
+    width: 90%;
+    overflow: hidden;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.intro-page h2 {
+    font-size: 35px;
+    color: #058;
+    text-shadow: 1px 1px black;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.intro-page h3 {
+    font-size: 33px;
+    color: #bc1622;
+    font-weight: bold;
+    padding-bottom: 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Jiisic Part */
+.topics li {
+    background-position: center;
+    max-width: 500px;
+    font-family: "League Spartan", sans-serif;
+    text-align: left;
+    font-size: 23px;
+}
+
+.topics h4 {
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+/* Call for papers */
+.call-papers h2 {
+    color: #058;
+    text-shadow: 3px 3px 2px #000000;
+    font-size: 70px;
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.service-item {
+    text-align: center;
+    height: 350px;
+}
+
+/* Important dates */
+.important-dates li p {
+    font-size: 20px;
+    font-family: "League Spartan", sans-serif;
+    padding: 2px;
+}
+
+.important-dates b {
+    font-weight: bold;
+}
+
+.important-dates-img img {
+    height: 270px;
+    width: 250px;
+    display: block;
+    margin: 0px auto;
+}
+
+p.important-dates-pdf {
+    text-align: center;
+}
+
+
+/* Submission */
+.flexbox-container {
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.flexbox-container div {
+    width: 50%;
+    padding: 10px;
+}
+
+.submission h2 {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.submission-left img {
+    height: 270px;
+    width: 220px;
+    border-radius: 15px 40px 15px 15px;
+    display: block;
+    margin: 0px auto;
+}
+
+.submission-right img {
+    height: 270px;
+    width: 220px;
+    display: block;
+    margin: 0px auto;
+}
+
+.latex{
+
+    width: 500px!important;
+}
+
+
+/*Registration */
+.registration li {
+    background-position: center;
+    max-width: 500px;
+    font-family: "League Spartan", sans-serif;
+    text-align: left;
+    font-size: 23px;
+}
+
+.topics h4 {
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+/* Committees */
+
+.committees button:hover{
+
+    color: white;
+}
+
+.committees p {
+    text-align: center;
+}
+
+/* Venue */
+.venue p {
+    text-align: center;
+}
+
+.venue h4 {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+/* Code Of Conduct */
+.codeOfConduct img {
+    height: 270px;
+    width: 250px;
+    display: block;
+    margin: 0px auto;
+}
+
+
+/* Past Editions */
+.flex-last-editions {
+    display: flex;
+    border: 1px black;
+    flex-flow: row wrap;
+}
+
+.flex-last-editions img {
+    display: block;
+    height: 90%;
+    width: 90%;
+
+    transition: all 400ms ease-out;
+    will-change: transform;
+}
+
+.innerbox p{
+
+    text-align: center;
+}
+
+.innerbox figure:hover > img {
+    filter: blur(5px);
+}
+
+.innerbox figure .capa {
+    position: absolute;
+    top: 0;
+    width: 90%;
+    height: 90%;
+    background: rgba(#058);
+    transition: all 400ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+
+.innerbox figure:hover > .capa {
+    opacity: 1;
+    visibility: visible;
+}
+
+.innerbox figure:hover > .capa h3 {
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+
+.innerbox figure .capa h3 {
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 400ms ease-out;
+    margin-top: 30px;
+    font-family: "Roboto", sans-serif;
+    text-shadow: 0px 3px black;
+    font-size: 25px !important;
+}
+
+.innerbox figure .capa p {
+    color: #fff;
+    font-size: 20px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    font-family: "Grape Nuts";
+    margin: auto;
+}
+
+.innerbox {
+    position: relative;
+    display: inline-block;
+    flex: 1 33%;
+}
+
+.innerbox figure {
+    position: relative;
+    height: 250px;
+    cursor: pointer;
+    width: 350px;
+    overflow: hidden;
+}
+
+.title-year {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+    color: #ffffff;
+    text-shadow: 0px 2px #000000;
+    font-size: 20px;
+    font-family: "Grape Nuts", cursive;
+}
+
+.venue iframe {
+    width: 900px;
+    height: 450px;
+    border: 10px;
+    margin-left: 130px;
+}
+
+.sponsors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container-fluid12 {
+    /* Created with https://www.css-gradient.com */
+
+    background: -webkit-radial-gradient(bottom right, #43eaef, #054154);
+    background: -moz-radial-gradient(bottom right, #43eaef, #054154);
+    background: radial-gradient(to top left, #43eaef, #054154);
+}
+
+.sponsors img {
+    margin: 32px;
+    width: 12%;
+    height: 100%;
+}
+
+/*Titulos*/
+.contenedor {
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+.contenedor h2 {
+    font-size: 150px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+
+    width: 100%;
+    padding-bottom: 17px;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: url(https://images.ctfassets.net/hrltx12pl8hq/4ACnMj4WVSOZRZt0jHu9h5/1506f652bcd70f4dc3e88219fefea858/shutterstock_739595833-min.jpg?fit=fill&w=800&h=300);
+    margin-bottom: 20px;
+    background-attachment: fixed;
+}
+.contenedor p {
+    line-height: 1.5;
+    color: #7a7a7a;
+}
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    body {
+        margin-bottom: 10em;
+    }
+    .contenedor {
+        width: 95%;
+    }
+    .contenedor h2 {
+        font-size: 70px;
+    }
+}
